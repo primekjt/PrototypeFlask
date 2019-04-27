@@ -1,20 +1,17 @@
 {% extends "default_layout.html" %}
+{% block header %}
+    {{ super() }}
+<title>-= Home Page =-</title>
+{% endblock %}
+
 {% block content %}
     <div class="container">
         <div class="starter-template">
             <h1>Bootstrap starter template</h1>
             <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-            {% block title %}<h1>INDEX PAGE TITLE : {{ title }}</h1>{% endblock %}
         </div>
 
-
-    {% block inner_block %}<h1>PAGE TITLE : {{ title }}</h1>{% endblock inner_block %}
-
-    <h6>index.html 입니다</h6>
-    <h1>{{ title }}</h1>
-    <h2>{{ dept }}</h2>
-    <p>{{ title , dept }}</p>
-    {% if True %}
+    {% if False %}
     Jinja2
     {% endif %}
     </div><!-- /.container -->
