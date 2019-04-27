@@ -2,16 +2,24 @@
 <html lang="en">
 <head>
 	{% include 'common/default_header.html' %}
+    {% block header %}
+    <!--<center>header area</center>-->
+    {% endblock %}
 </head>
 <body>
 
     {% include 'common/default_nav.html' %}
-    {% include 'common/default_left.html' %}
+    {% block nav %}
+    {% endblock %}
 
-    {% block title %}<h1>{{ title }} 여기가 타이틀 입니다</h1>{% endblock %}
+    {% include 'common/default_left.html' %}
+    {% block left %}
+    {% endblock %}
 
     {% block content %} 컨텐츠 영역 {% endblock %}
 
 	{% include 'common/default_footer.html' %}
+    {% block footer %}
+    {% endblock %}
 </body>
 </html>

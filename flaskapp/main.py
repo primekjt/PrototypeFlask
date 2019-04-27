@@ -1,8 +1,7 @@
 # file name : main.py
-# pwd : /project_name/main.py
+# pwd : /project_name/app_name/main.py
 
 from flaskapp import app
-
 from flask import render_template
 
 #from flask import request, url_for, current_app
@@ -20,13 +19,14 @@ def after_request(response):
 
 @app.route('/')
 def flask_app():
-    title_text = 'Flask Web Page'
+    page_title = 'Flask Web Page'
     dept = '조직'
-    return render_template('content/index.html', title=title_text, dept=dept+':좋은팀')
+    return render_template('content/index.html', title=page_title, dept=dept+':좋은팀')
 
 @app.route('/hello')
 def hello_world():
-    return "Hello Flask World!!!"
+    page_title = "Hello Flask World!!!"
+    return render_template('content/hello.html', title=page_title)
 
 def before_request_func():
     """html 코딩 시 서버 재시작 없이 html 리로드하기 설정 함수"""

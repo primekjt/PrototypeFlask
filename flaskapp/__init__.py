@@ -1,11 +1,18 @@
 # file name : __init__.py
-# pwd : /project_name/app/__init__.py
+# pwd : /project_name/app_name/__init__.py
 
 from flask import Flask
 
+#from flask.ext.sqlalchemy import SQLAlchemy
+
+
 app = Flask(__name__)
+app.config.from_object('config')
+#db = SQLAlchemy(app)
 
 #print('__init__')
+
+
 
 # 추가할 모듈이 있다면 추가
 
