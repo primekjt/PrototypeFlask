@@ -1,5 +1,5 @@
-# file name : main.py
-# pwd : /project_name/app_name/main.py
+# file name : app.py
+# pwd : /project_name/app_name/appmain.py
 
 from flaskapp import app
 from flask import render_template
