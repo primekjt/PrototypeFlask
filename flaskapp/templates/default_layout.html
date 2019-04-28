@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	{% include 'common/default_header.html' %}
+    {% include 'common/default_header.html' %}
     {% block header %}
-    <!--<center>header area</center>-->
     {% endblock %}
+    {% block title %}<title>WEB PAGE TITLE</title>{% endblock %}
 </head>
 <body>
 
-    {% include 'common/default_nav.html' %}
     {% block nav %}
+        {% include 'common/default_nav.html' %}
     {% endblock %}
 
-    {% include 'common/default_left.html' %}
     {% block left %}
+        {% include 'common/default_left.html' %}
     {% endblock %}
 
     {% block content %} 컨텐츠 영역 {% endblock %}

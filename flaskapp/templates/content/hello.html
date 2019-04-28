@@ -1,16 +1,26 @@
 {% extends "default_layout.html" %}
+    {% block title %}<title>-= Hello Page =-</title>{% endblock %}
 {% block content %}
-    <div class="container">
-        <div class="starter-template">
-            <h1>Bootstrap starter template</h1>
-            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-        </div>
-{% block title %}<h1>HELLO PAGE TITLE : {{ title }}</h1>{% endblock %}
+	<div class="container">
+		<div class="header"><h1>IMDB Movies</h1></div>
+		<hr />
 
-    {% block inner_block %}
-    <h1>TITLE : {{ title }}</h1>
-    {% endblock inner_block %}
-
+		<!-- Table -->
+		<table class="table table-hover">
+			<tr>
+				<th>Movie</th>
+				<th>Critical Reviews</th>
+				<th>Duration (minutes)</th>
+				<th>IMDB Score</th>
+			</tr>
+			{% for movie in movie_names %}
+			<tr>
+				<td>{{ movie }}</td>
+				<td>{{ movies[movie]['critical_reviews'] }}</td>
+				<td>{{ movies[movie]['duration'] }}</td>
+				<td>{{ movies[movie]['imdb_score'] }}</td>
+			</tr>
+			{% endfor %}
+		</table>
     </div><!-- /.container -->
-
 {% endblock %}
