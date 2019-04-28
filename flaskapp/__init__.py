@@ -2,29 +2,41 @@
 # pwd : /project_name/app_name/__init__.py
 
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager
 
-#from flask.ext.sqlalchemy import SQLAlchemy
+# init SQLAlchemy so we can use it later in our models
+db = SQLAlchemy()
 
+def create_app():
+    app = Flask(__name__)
 
-app = Flask(__name__)
-app.config.from_object('config')
-#db = SQLAlchemy(app)
+    app.config['SECRET_KEY'] = '9OLWxND4o83j4K4iuopO'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
 
-#print('__init__')
+    db.init_app(app)
 
+    login_manager = LoginManager()
+    login_manager.login_view = 'auth.login'
+    login_manager.init_app(app)
 
+    from .models import User
 
-# 추가할 모듈이 있다면 추가
+    @login_manager.user_loader
+    def load_user(user_id):
+        # since the user_id is just the primary key of our user table, use it in the query for the user
+        return User.query.get(int(user_id))
 
+    # blueprint for auth routes in our app
+    from .auth import auth as auth_blueprint
+    app.register_blueprint(auth_blueprint)
 
-# config 파일이 있다면 추가
+    # blueprint for non-auth parts of app
+    from .main import main as main_blueprint
+    app.register_blueprint(main_blueprint)
 
+    #print(app.url_map)
 
-# 앞으로 새로운 폴더를 만들어서 파일을 추가할 예정임
-# from app.main.[파일 이름] --> app 폴더 아래에 main 폴더 아래에 [파일 이름].py 를 import 한 것임
+    return app
 
-
-# 위에서 추가한 파일을 연동해주는 역할
-# app.register_blueprint(추가한 파일)
-
-
+app = create_app()
