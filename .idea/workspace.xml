@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c876dc94-1676-45e1-b9e9-9048cb4ca9d4" name="Default Changelist" comment="">
+    <list default="true" id="c876dc94-1676-45e1-b9e9-9048cb4ca9d4" name="Default Changelist" comment="sample test 2019,04.28 login coding...">
+      <change afterPath="$PROJECT_DIR$/flaskapp/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskapp/templates/content/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskapp/templates/content/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/common/default_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/common/default_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/common/default_left.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/common/default_right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/common/default_nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/common/default_nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/content/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/content/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/content/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/content/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/content/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskapp/templates/default_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskapp/templates/default_layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flaskapp/__init__.py">
+        <entry file="file://$PROJECT_DIR$/flaskapp/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="e#70#93#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="853">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -27,8 +41,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="361">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <folding>
+                <element signature="e#66#99#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,29 +53,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="378">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flaskapp/auth.py">
+        <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="375">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
-                <element signature="e#0#79#0" expanded="true" />
+                <element signature="e#493#499#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flaskapp/config.py">
+        <entry file="file://$PROJECT_DIR$/flaskapp/templates/default_layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="302">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/hello.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskapp/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flaskapp/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#70#93#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +140,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>navbar</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,24 +162,27 @@
         <option value="$PROJECT_DIR$/flaskapp/static/css/starter-template.css" />
         <option value="$PROJECT_DIR$/flaskapp/templates/common/default_footer.html" />
         <option value="$PROJECT_DIR$/flaskapp/static/css/signin.css" />
-        <option value="$PROJECT_DIR$/flaskapp/templates/common/default_header.html" />
-        <option value="$PROJECT_DIR$/flaskapp/templates/content/login.html" />
-        <option value="$PROJECT_DIR$/flaskapp/templates/content/index.html" />
-        <option value="$PROJECT_DIR$/flaskapp/templates/default_layout.html" />
-        <option value="$PROJECT_DIR$/flaskapp/templates/content/hello.html" />
-        <option value="$PROJECT_DIR$/flaskapp/config.py" />
-        <option value="$PROJECT_DIR$/flaskapp/__init__.py" />
         <option value="$PROJECT_DIR$/flaskapp/app.py" />
-        <option value="$PROJECT_DIR$/flaskapp/main.py" />
-        <option value="$PROJECT_DIR$/flaskapp/templates/common/default_nav.html" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/common/default_header.html" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/default_layout.html" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/common/default_right.html" />
+        <option value="$PROJECT_DIR$/flaskapp/__init__.py" />
         <option value="$PROJECT_DIR$/flaskapp/models.py" />
+        <option value="$PROJECT_DIR$/flaskapp/config.py" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/content/hello.html" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/content/index.html" />
+        <option value="$PROJECT_DIR$/flaskapp/main.py" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/content/profile.html" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/common/default_nav.html" />
         <option value="$PROJECT_DIR$/flaskapp/auth.py" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/content/login.html" />
+        <option value="$PROJECT_DIR$/flaskapp/templates/content/register.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="2" />
+    <option name="y" value="9" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -116,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +203,26 @@
               <item name="PrototypeFlask" type="b2602c69:ProjectViewProjectNode" />
               <item name="PrototypeFlask" type="462c0819:PsiDirectoryNode" />
               <item name="flaskapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrototypeFlask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrototypeFlask" type="462c0819:PsiDirectoryNode" />
+              <item name="flaskapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrototypeFlask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrototypeFlask" type="462c0819:PsiDirectoryNode" />
+              <item name="flaskapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrototypeFlask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrototypeFlask" type="462c0819:PsiDirectoryNode" />
+              <item name="flaskapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PrototypeFlask" type="b2602c69:ProjectViewProjectNode" />
@@ -153,22 +248,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskapp/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flaskapp/static/img" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PRIMEKJT\PycharmProjects\PrototypeFlask\flaskapp\templates\content" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PRIMEKJT\PycharmProjects\PrototypeFlask\flaskapp\static\img" />
+      <recent name="C:\Users\PRIMEKJT\PycharmProjects\PrototypeFlask\flaskapp\templates\content" />
       <recent name="C:\Users\PRIMEKJT\PycharmProjects\PrototypeFlask\flaskapp\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PRIMEKJT\PycharmProjects\PrototypeFlask\flaskapp\templates\content" />
     </key>
   </component>
@@ -244,30 +341,57 @@
       <option name="project" value="LOCAL" />
       <updated>1556456608155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sample test 2019,04.28 login coding...">
+      <created>1556456709443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556456709443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="2" y="9" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19676946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33187294" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33025405" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44341803" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290993" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32678983" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3290993" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19676946" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33140877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42147806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290993" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32858709" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32794458" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -282,11 +406,35 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/flaskapp/auth.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
+          <line>22</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>session</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_user</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_user.session[id]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current_user.session</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
@@ -294,9 +442,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskapp/wsgi.py" />
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_left.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/flaskapp/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -310,23 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="87916" selection-start-line="1" selection-start-column="87916" selection-end-line="1" selection-end-column="87916" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="87" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-          <folding>
-            <element signature="e#493#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/static/css/starter-template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -344,110 +472,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_header.html">
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/flask_login/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="95" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
+        <state relative-caret-position="-2986">
+          <caret line="199" column="16" lean-forward="true" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/hello.html">
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/werkzeug/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="167">
+          <caret line="563" selection-start-line="563" selection-end-line="563" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/default_layout.html">
+    <entry file="file://$PROJECT_DIR$/flaskapp/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="64" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/index.html">
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_right.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/static/css/starter-template.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/werkzeug/security.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="176" column="26" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/flask_login/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/http/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/werkzeug/debug/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="864" selection-start-line="864" selection-end-line="864" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="719" selection-start-line="719" selection-end-line="719" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/werkzeug/serving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="-175">
           <caret line="793" selection-start-line="793" selection-end-line="793" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_nav.html">
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskapp/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="194">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="35" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/app.py">
+    <entry file="file://$PROJECT_DIR$/flaskapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="361">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#66#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/login.html">
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="171">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskapp/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="351">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#70#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/config.py">
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="209">
+          <caret line="11" column="123" selection-start-line="11" selection-start-column="123" selection-end-line="11" selection-end-column="123" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flaskapp/models.py">
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.conda/envs/flask_env/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="2291" selection-start-line="2291" selection-end-line="2291" />
+        <state relative-caret-position="190">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskapp/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="853">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/common/default_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#493#499#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/default_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flaskapp/templates/content/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -1,13 +1,28 @@
 from flask import Blueprint, render_template
 from flask_login import login_required, current_user
+from . import db
 
 main = Blueprint('main', __name__)
 
 @main.route('/')
+@main.route('/index')
 def index():
-    return render_template('content/index.html')
+
+    if current_user:
+        # current_user.is_anonymous
+        print(current_user)
+        # user_id = current_user.id
+        # print("USER_ID: " + user_id)
+        print(db.session)
+
+    return render_template('content/index.html', title='Home')
+
+@main.route('/about')
+def about():
+    return render_template('content/about.html', title='About')
 
 @main.route('/hello')
+@login_required
 def hello_world():
     # Movie Titles - Stored as an array
     movie_names = ['Avatar',
@@ -28,9 +43,5 @@ def hello_world():
         'Spider-Man 3': {'critical_reviews': 392, 'duration': 156, 'imdb_score': 6.2},
         'Tangled': {'critical_reviews': 324, 'duration': 100, 'imdb_score': 7.8},
     }
-    return render_template('content/hello.html', movie_names=movie_names, movies=movies)
+    return render_template('content/hello.html', title='Hello', movie_names=movie_names, movies=movies)
 
-@main.route('/profile')
-@login_required
-def profile():
-    return render_template('content/profile.html', name=current_user.name)

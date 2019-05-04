@@ -1,7 +1,6 @@
 {% extends "default_layout.html" %}
 {% block header %}
     {{ super() }}
-<title>-= Home Page =-</title>
 {% endblock %}
 
 {% block content %}
@@ -11,9 +10,26 @@
             <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
         </div>
 
-    {% if False %}
-    Jinja2
-    {% endif %}
+        <div>
+            {% if user %}
+            <ul>
+                <li>{{ user.email }}</li>
+            </ul>
+            {% endif %}
+
+            {% if current_user.is_authenticated %}
+                Hi {{ current_user.name, current_user.email }}!
+            {% endif %}
+        </div>
+        <aside class="col-md-4 my-3">
+            <h2>사이드 바</h2>
+            <ul class="list-group">
+                <li class="list-group-item">사이드바 아이템1</li>
+                <li class="list-group-item">사이드바 아이템2</li>
+                <li class="list-group-item">사이드바 아이템3</li>
+                <li class="list-group-item">사이드바 아이템4</li>
+            </ul>
+        </aside>
     </div><!-- /.container -->
 {% endblock %}
 

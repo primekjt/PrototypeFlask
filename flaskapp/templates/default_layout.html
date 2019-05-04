@@ -4,16 +4,15 @@
     {% include 'common/default_header.html' %}
     {% block header %}
     {% endblock %}
-    {% block title %}<title>WEB PAGE TITLE</title>{% endblock %}
+
 </head>
 <body>
-
     {% block nav %}
         {% include 'common/default_nav.html' %}
     {% endblock %}
 
-    {% block left %}
-        {% include 'common/default_left.html' %}
+    {% block right %}
+        {% include 'common/default_right.html' %}
     {% endblock %}
 
     {% block content %} 컨텐츠 영역 {% endblock %}
